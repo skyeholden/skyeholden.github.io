@@ -1,0 +1,52 @@
+html {
+    background-image: linear-gradient(to bottom, #EFFFFB, #DEF3FF);
+    height: 100%;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.features {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.features li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.buy-now-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #49BEBA;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-now-btn:hover {
+    background-color: #139894;
+}
