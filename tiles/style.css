@@ -1,0 +1,126 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  position: relative;
+  margin-top: 0;
+  background-color: #FFF;
+  display: inline-block;
+  max-width: 1200px;
+  width: 100%;
+  height: 99vh;
+  opacity: .6;
+  text-align: left;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.topofpage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100px;
+  background-color: #FFF;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  opacity: .9;
+}
+
+.logo {
+  max-width: 250px;
+  width: 25%;
+  background-color: #1c95ff;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.logo_img {
+  width: 50%;
+  margin: auto;
+}
+
+.nav {
+  flex-grow: 1;
+  text-align: left;
+  padding-left: 4vh;
+}
+
+.search {
+  margin-left: auto;
+  max-width: 200px;
+  width: 10%;
+  align-content: flex-end;
+  background-color: #f2f4f7;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.search_img {
+  width: 30%;
+}
+
+.nav a {
+  color: #1c95ff;
+  text-decoration: none;
+  font-weight: 700;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+a:hover {
+  color: darkblue;
+}
+
+.content {
+  text-align: left;
+  padding: 20px;
+}
+
+.navhere {
+  color: #000 !important;
+}
+
+.tile {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.tilebg1 {
+  background-image: url(img/mountains.jpg)
+}
+
+.tilebg2 {
+  background-image: url(img/postapocalypse.jpg)
+}
+
+.tilebg3 {
+  background-image: url(img/digitalpainting.jpg)
+}
+
+.tilebg4 {
+  background-image: url(img/3drig.jpg)
+}
+
+.tilebg5 {
+  background-image: url(img/photobeforeafter.jpg)
+}
+
+.tilebg6 {
+  background-image: url(img/3dcharacter.jpg)
+}
+
+.tilebg7 {
+  background-image: url(img/portrait.jpg)
+}
